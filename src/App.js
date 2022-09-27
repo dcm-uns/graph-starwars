@@ -23,7 +23,8 @@ function App() {
   if (loading) return "Loading...";
   if (error) return <pre>{error.message}</pre>
   
-
+  // 6. En data está el resultado de la consulta :)
+  // Lo unico que resta es mostrar la información:
   return (
     <div className="App">
       <header className="App-header">
